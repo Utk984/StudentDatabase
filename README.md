@@ -1,3 +1,35 @@
-# StudentDatabase
+# Student Database System 
 
-This program is a Student Database program. It uses files to store data permanently. It prints the entire database, the seating arrangement of students, individual report cards of students and the academic statistics. New students can be added to the database also. The program continues until the user exits the program. 
+This is a java program to manage student records and perform various functions like searching, adding new students, generating reports etc.
+
+## Features
+
+- Add new students with details like name, class, roll no, marks etc.
+- Search for existing students 
+- Generate report card for a student
+- Display entire student database
+- Get academic statistics like highest marks subject-wise
+- View seating arrangement of students
+- Data is persisted to file
+
+## Usage
+
+- Run `StudentDatabase.java` 
+- Choose options from menu:
+  - Add new student
+  - Search student database
+    - Get report card
+    - View full database 
+    - See academic statistics
+    - See seating arrangement
+  - Exit
+  
+- Enter student details when adding
+- Search by name when looking up a student
+
+## Implementation
+
+- `StudentDatabase` class contains all methods 
+- Students stored in arrays (name, class, roll, marks etc)
+- File IO used to persist data in `Project.txt`
+- Various functions to print reports, statistics etc.
